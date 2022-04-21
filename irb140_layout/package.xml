@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>irb140_layout</name>
+  <version>0.0.0</version>
+  <description>The irb140_layout package</description>
+  <maintainer email="felipe@todo.todo">felipe</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <depend>gazebo_ros</depend>
+  <exec_depend>gazebo</exec_depend>
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/objects/" />
+  </export>
+
+</package>
